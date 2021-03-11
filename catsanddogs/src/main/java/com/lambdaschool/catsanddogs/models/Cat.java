@@ -27,9 +27,9 @@ public class Cat
         this.catid = catid;
     }
 
-    public String getCatname()
-    {
-        return catname;
+    public String getCatname() {
+
+        return catname.toUpperCase();
     }
 
     public void setCatname(String catname)
